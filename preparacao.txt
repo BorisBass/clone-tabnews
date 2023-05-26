@@ -1,0 +1,30 @@
+Preparação do VS Code:
+
+brew update 
+brew install nvm
+
+Verificar se a pasta foi criada
+mkdir ~/.nvm
+
+- Abrir o profile:
+sudo vi /etc/zprofile
+
+- Inserir as linhas:
+export NVM_DIR="$HOME/.nvm"
+  [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
+  [ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
+
+Instalar o node
+nvm install node
+
+criar o repositório do projeto no GITHUB
+
+fazer o download pro VS-Code ou usar o Codespace do GITHUB
+
+No terminal evecutar o “nvm ls” para escolher a versão do node.
+
+Depois da versão escolhida instalar no terminal do projeto: nvm install lts/hydrogen
+
+Depois executar: nvm alias default lts/hydrogen pra definir a versão do projeto
+
+Criar o arquivo .nvmvc e colocar qual a versão do node você vai usar no projeto
