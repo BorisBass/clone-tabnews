@@ -1,0 +1,26 @@
+{
+  "name": "clone-tabnews",
+  "version": "1.0.0",
+  "description": "prática do do curso.dev",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "author": "BorisBass",
+  "license": "MIT",
+  "dependencies": {
+    "env": "^0.0.2",
+    "next": "^13.1.6",
+    "node": "^20.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BorisBass/clone-tabnews.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BorisBass/clone-tabnews/issues"
+  },
+  "homepage": "https://github.com/BorisBass/clone-tabnews#readme"
+}
